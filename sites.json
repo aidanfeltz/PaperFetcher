@@ -1,0 +1,10 @@
+{
+"sites":[
+    {"site":"https://www.sci-hub.se/"},
+    {"site":"https://www.sci-hub.ru/"},
+    {"site":"https://www.sci-hub.se/"}
+]
+"comments":[ 
+  {"comment": "this will be updated so the user does not have to download new verions every time the site changes, either version of the application will direct here and go through the sites"}
+]
+}
