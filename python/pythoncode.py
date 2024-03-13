@@ -4,7 +4,6 @@ import os
 import json
 import requests
 # code for getting json
-
 url = "https://raw.githubusercontent.com/aidanfeltz/PaperFetcher/main/sites.json"
 response = requests.get(url)
 if response.status_code == 200:
@@ -12,6 +11,7 @@ if response.status_code == 200:
 options = None
 driverchosen = input("type 1 for chrome, 2 for edge, 3 for firefox, and 4 for safari")
 urltoget = input("paste url of paper")
+#code for getting correct browser
 while options is None:
 	if driverchosen == "1":
 		options = webdriver.ChromeOptions()
